@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Allow: /privacy-policy
+Disallow: /api/search?*
+Disallow: /api/stats
+Crawl-delay: 1
+
+Sitemap: https://haryana-cet-results-production.up.railway.app/sitemap.xml

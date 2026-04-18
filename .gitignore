@@ -1,0 +1,29 @@
+node_modules/
+.env
+.DS_Store
+*.log
+
+# Large source data files (not for git)
+data.json
+data-indexed.json
+data-optimized.json
+data.json.gz
+
+# Uncompressed DB (generated from data.db.gz at startup)
+data.db
+
+# Keep data.db.gz — it is committed (46MB, under GitHub 100MB limit)
+!data.db.gz
+
+# SQLite WAL journal files
+*.db-shm
+*.db-wal
+
+# Source PDFs and extracted text (large, local only)
+*.pdf
+pdfs/
+cet_layout.txt
+
+# Old/duplicate build scripts and platform configs
+build-data.js
+render.yaml

@@ -1,0 +1,27 @@
+{
+  "name": "CET Results Checker 2025",
+  "short_name": "CET Results",
+  "description": "Check your CET 2025 results instantly by roll number",
+  "start_url": "/",
+  "scope": "/",
+  "background_color": "#ffffff",
+  "theme_color": "#5B5FFF",
+  "display": "standalone",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'%3E%3Crect fill='%235B5FFF' width='192' height='192'/%3E%3Ctext x='50%25' y='50%25' font-size='120' fill='white' text-anchor='middle' dominant-baseline='middle' font-weight='bold'%3E🎓%3C/text%3E%3C/svg%3E",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 540 720'%3E%3Crect fill='%235B5FFF' width='540' height='720'/%3E%3Ctext x='270' y='360' font-size='80' fill='white' text-anchor='middle' dominant-baseline='middle' font-weight='bold'%3ECET Results%3C/text%3E%3C/svg%3E",
+      "sizes": "540x720",
+      "type": "image/svg+xml",
+      "form_factor": "narrow"
+    }
+  ]
+}

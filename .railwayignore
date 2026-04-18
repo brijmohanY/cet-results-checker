@@ -1,0 +1,11 @@
+pdfs/
+*.pdf
+cet_layout.txt
+data.json
+data.json.gz
+data-indexed.json
+data-optimized.json
+data.db
+data.db-shm
+data.db-wal
+node_modules/

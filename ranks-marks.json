@@ -1,0 +1,142 @@
+[
+  {
+    "rankRange": "1-5,000",
+    "minMarks": "82.7",
+    "maxMarks": "92.5",
+    "avgMarks": "84.5",
+    "candidates": 5462
+  },
+  {
+    "rankRange": "5,001-10,000",
+    "minMarks": "81.2",
+    "maxMarks": "82.5",
+    "avgMarks": "81.6",
+    "candidates": 4890
+  },
+  {
+    "rankRange": "10,001-15,000",
+    "minMarks": "79.6",
+    "maxMarks": "80.4",
+    "avgMarks": "80.1",
+    "candidates": 5240
+  },
+  {
+    "rankRange": "15,001-20,000",
+    "minMarks": "78.7",
+    "maxMarks": "79.3",
+    "avgMarks": "79.0",
+    "candidates": 5413
+  },
+  {
+    "rankRange": "20,001-25,000",
+    "minMarks": "77.8",
+    "maxMarks": "78.3",
+    "avgMarks": "78.1",
+    "candidates": 4378
+  },
+  {
+    "rankRange": "25,001-30,000",
+    "minMarks": "77.2",
+    "maxMarks": "77.6",
+    "avgMarks": "77.4",
+    "candidates": 5652
+  },
+  {
+    "rankRange": "30,001-35,000",
+    "minMarks": "76.4",
+    "maxMarks": "77.0",
+    "avgMarks": "76.6",
+    "candidates": 4034
+  },
+  {
+    "rankRange": "35,001-40,000",
+    "minMarks": "76.1",
+    "maxMarks": "76.4",
+    "avgMarks": "76.2",
+    "candidates": 5851
+  },
+  {
+    "rankRange": "40,001-45,000",
+    "minMarks": "75.2",
+    "maxMarks": "75.5",
+    "avgMarks": "75.4",
+    "candidates": 4887
+  },
+  {
+    "rankRange": "45,001-50,000",
+    "minMarks": "75.0",
+    "maxMarks": "75.2",
+    "avgMarks": "75.1",
+    "candidates": 4592
+  },
+  {
+    "rankRange": "50,001-55,000",
+    "minMarks": "74.3",
+    "maxMarks": "74.6",
+    "avgMarks": "74.5",
+    "candidates": 4731
+  },
+  {
+    "rankRange": "55,001-60,000",
+    "minMarks": "74.0",
+    "maxMarks": "74.1",
+    "avgMarks": "74.0",
+    "candidates": 5880
+  },
+  {
+    "rankRange": "60,001-65,000",
+    "minMarks": "73.4",
+    "maxMarks": "73.6",
+    "avgMarks": "73.5",
+    "candidates": 5237
+  },
+  {
+    "rankRange": "65,001-70,000",
+    "minMarks": "72.9",
+    "maxMarks": "73.0",
+    "avgMarks": "72.9",
+    "candidates": 6535
+  },
+  {
+    "rankRange": "70,001-75,000",
+    "minMarks": "72.7",
+    "maxMarks": "72.7",
+    "avgMarks": "72.7",
+    "candidates": 2839
+  },
+  {
+    "rankRange": "75,001-80,000",
+    "minMarks": "71.9",
+    "maxMarks": "72.5",
+    "avgMarks": "72.2",
+    "candidates": 5992
+  },
+  {
+    "rankRange": "80,001-85,000",
+    "minMarks": "71.8",
+    "maxMarks": "71.8",
+    "avgMarks": "71.8",
+    "candidates": 3778
+  },
+  {
+    "rankRange": "85,001-90,000",
+    "minMarks": "71.6",
+    "maxMarks": "71.8",
+    "avgMarks": "71.7",
+    "candidates": 5979
+  },
+  {
+    "rankRange": "90,001-95,000",
+    "minMarks": "70.8",
+    "maxMarks": "70.9",
+    "avgMarks": "70.9",
+    "candidates": 6828
+  },
+  {
+    "rankRange": "95,001-100,000",
+    "minMarks": "70.7",
+    "maxMarks": "70.7",
+    "avgMarks": "70.7",
+    "candidates": 3399
+  }
+]

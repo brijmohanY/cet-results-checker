@@ -1,0 +1,20 @@
+{
+  "name": "cet-results-checker",
+  "version": "2.0.0",
+  "type": "module",
+  "description": "CET 2025 indicative rank & marks checker for 12.5L+ candidates",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "build": "node scripts/build-from-pdf.js",
+    "migrate": "node scripts/migrate.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.9.0",
+    "compression": "^1.7.4",
+    "express": "^4.18.2"
+  }
+}
