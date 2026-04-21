@@ -76,6 +76,12 @@ const stmtCatRank = hasCatRankCol
 const stmtStats   = db.prepare('SELECT COUNT(*) as total FROM results');
 const stmtChart   = null; // loaded from file
 
+// PMT shortlist lookup (null if table not yet built)
+const hasPmtTable = db.prepare("SELECT name FROM sqlite_master WHERE type='table' AND name='pmt_shortlist'").get();
+const stmtPmt = hasPmtTable
+  ? db.prepare('SELECT post, category FROM pmt_shortlist WHERE reg_no = ?')
+  : null;
+
 let ranksMarksChart = [];
 const chartPath = path.join(__dirname, 'ranks-marks.json');
 if (fs.existsSync(chartPath)) ranksMarksChart = JSON.parse(fs.readFileSync(chartPath, 'utf8'));
@@ -187,6 +193,14 @@ function formatResult(row) {
     } else if (stmtCatRank) {
       const { n } = stmtCatRank.get(row.category, row.rank);
       result['Category Rank'] = n;
+    }
+  }
+
+  // PMT shortlist: check if this candidate's reg_no appears in any shortlist
+  if (stmtPmt && row.reg_no) {
+    const pmtRows = stmtPmt.all(row.reg_no);
+    if (pmtRows.length > 0) {
+      result['_pmt'] = pmtRows.map(p => ({ post: p.post, category: p.category }));
     }
   }
 
